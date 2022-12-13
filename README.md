@@ -6,3 +6,4 @@ The DNN and LSTM method incorporate various hyperparameters. It is essential to 
 Whit the use of avarage learning curve and K-fold cross-validation, you can test the models each time you train them.
 The LSTM models are hard to train on every data. You can just implement them on specefic datasets. in addition, their trainin time takes a lot of time and when you use K-fold cross-validation technique, it takes more time! However, they are more accurate than DNNs in some ways.
 When you want to fit LSTM models on time series datasets, it is important to make your datasets 3 dimensional.
+The models were tested and compared using RMSE, MAE, and R2. it is better to have R2 near 1 and low amount of RMSE and MAE.
